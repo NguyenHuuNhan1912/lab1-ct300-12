@@ -1,0 +1,224 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --black-color: #000;
+    --white-color: #fff;
+    --primary-color: #ff6500;
+    --hover-color: #e35b01;
+    --text-color: #9B9B9B;
+    --title-color: #a94605;
+}
+
+h2 {
+    font-size: 1.8rem;
+    display: flex;
+    color: beige;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.form__login {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    max-width: 450px;
+    margin: auto;
+}
+.form__login {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    max-width: 450px;
+    margin: auto;
+}
+
+.login {
+    background-color: #1f1f1f;
+    padding: 60px 66px;
+    border-radius: 8px;
+}
+
+
+.login-title {
+    font-size: 2.2rem;
+    color: var(--white-color);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.user-login {
+    display: grid;
+    width: 280px;
+}
+
+#name {
+    width: 100%;
+    height: 38px;
+    font-size: 1.2rem;
+    color: #868686;
+    outline: none;
+    margin-bottom: 15px;
+    padding: 0 12px;
+    border-radius: 4px;
+}
+
+#pass {
+    width: 100%;
+    height: 38px;
+    font-size: 1.2rem;
+    color: #868686;
+    outline: none;
+    margin-bottom: 15px;
+    padding: 0 12px;
+    border-radius: 4px;
+}
+
+.btn-login {
+    margin-bottom: 20px;
+}
+
+.button-login {
+    width: 100%;
+    height: 42px;
+    font-size: 1.4rem;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    outline: none;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.forgot {
+    display: grid;
+}
+
+.forgot-link {
+    text-align: center;
+    color: #4A4A4A;
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+.forgot-link:hover {
+    color: var(--title-color);
+    transition: all 0.3s;
+}
+
+.forgot-item {
+    text-align: center;
+    font-size: 1.4rem;
+    color: #4a4a4a;
+    margin-bottom: 15px;
+}
+
+.facebook-login {
+    display: grid;
+    text-align: center;
+}
+
+.facebook {
+    width: 100%;
+    height: 42px;
+    background-color: #3B5998;
+    margin-bottom: 15px;
+    outline: none;
+    border: 1px solid #3B5998;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    overflow: hidden;
+}
+
+.google {
+    width: 100%;
+    height: 42px;
+    background-color: #DD4B39;
+    outline: none;
+    border: 1px solid #DD4B39;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    overflow: hidden;
+}
+
+.login-not-yet {
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 20px 0 0 0;
+}
+
+.login-not-yet-fixx {
+    display: grid;
+    margin-top: 20px;
+    line-height: 3rem;
+}
+
+.login-dk {
+    font-size: 1.6rem;
+    color: var(--white-color);
+    font-weight: 800;
+}
+
+.login-dk:hover {
+    color: var(--title-color);
+    transition: all 0.3s;
+}
+
+.login-cs {
+    color: #4a4a4a;
+}
+
+.login-cs:hover {
+    color: var(--title-color);
+    transition: all 0.3s;
+}
+
+
+/* error thử lại */
+
+.login-title-error {
+    font-size: 2.2rem;
+    color: var(--white-color);
+    text-align: center;
+    margin-bottom: 10px;
+    display: none;
+}
+
+.error {
+    display: none;
+}
+
+
+/* end */
+
+.error-icon {
+    text-align: center;
+    font-size: 6rem;
+    color: var(--white-color);
+    margin-bottom: 20px;
+}
+
+.bad-news {
+    font-size: 1.4rem;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+}
+
+.retry {
+    width: 100%;
+    height: 42px;
+    font-size: 1.4rem;
+    color: var(--white-color);
+    font-weight: 600;
+    background-color: var(--primary-color);
+    outline: none;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    cursor: pointer;
+}
