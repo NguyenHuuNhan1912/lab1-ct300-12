@@ -1,3 +1,1 @@
-# Please read this before you clone this project
-
-There is nothing here!!!
+# Lab1 - CT300 - 04 - 12
